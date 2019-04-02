@@ -28,6 +28,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+      `@/assets/css/bulmaswatch.litera.0.7.2.min.css`
   ],
 
   /*
@@ -52,7 +53,14 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  /**
+   * Set up the server environment
+   */
+  server: {
+    port: 3000, // default: 3000
+    host: '0.0.0.0',
+    timing: true
+  },
   /*
   ** Build configuration
   */

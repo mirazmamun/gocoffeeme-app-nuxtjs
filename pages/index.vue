@@ -1,4 +1,6 @@
 <template>
+  <div>
+  <Navbar></Navbar>
   <section class="container">
     <div>
       <logo />
@@ -8,28 +10,16 @@
       <h2 class="subtitle">
         GoCoffeeMe app for coffee reward
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
     </div>
   </section>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
+import Navbar from '~/components/Navbar'
 export default {
   components: {
-    Logo
+    Navbar
   }
 }
 </script>
