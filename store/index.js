@@ -1,5 +1,7 @@
 export const state = () => ({
-    counter: 0
+    activeMenu: {
+        dashboard: true
+    }
 })
 
 export const mutations = {
