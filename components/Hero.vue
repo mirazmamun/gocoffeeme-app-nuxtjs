@@ -2,7 +2,7 @@
   <section class="hero-container">
     <!-- CONTENT -->
     <div class="text-container">
-      <h1 class="title">{{ title }}</h1>
+      <h1 class="title">{{ title }} {{ test }}</h1>
       <h2 class="subtitle">{{ subtitle }}</h2>
     </div>
   </section>
@@ -57,7 +57,13 @@ export default {
       subtitle: 'Reward your mate with coffee'
     }
   },
-  components: {}
+  components: {},
+  computed: {
+    test () {
+      console.log(this.$store.state.dashboard);
+      return this.$store.state.dashboard.test;
+    }
+  }
 }
 </script>
 

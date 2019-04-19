@@ -65,15 +65,13 @@
       <div class="navbar-start">
         <a class="navbar-item">Home</a>
 
-        <a class="navbar-item">Documentation</a>
-
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">More</a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item">Contact</a>
+            <nuxt-link to="/contact" class="navbar-item">Contact</nuxt-link>
             <hr class="navbar-divider">
-            <a class="navbar-item">Report an issue</a>
+            <nuxt-link to="/send-feedback" class="navbar-item">Send Feedback</nuxt-link>
           </div>
         </div>
       </div>
@@ -88,12 +86,12 @@
           </div>
         </div>
         <div v-if="$store.state.dashboard.isLoggedIn" class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">User </a>
+          <a class="navbar-link">User</a>
 
           <div class="navbar-dropdown is-right">
-            <a class="navbar-item">Contact</a>
+            <nuxt-link to="/profile" class="navbar-item">Profile</nuxt-link>
             <hr class="navbar-divider">
-            <a class="navbar-item">Report an issue</a>
+            <nuxt-link to="/logout" class="navbar-item">Logout</nuxt-link>
           </div>
         </div>
       </div>

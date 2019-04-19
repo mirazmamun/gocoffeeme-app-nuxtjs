@@ -2,5 +2,6 @@ export const state = () => ({
     activeMenu: {
         dashboard: true
     },
-    isLoggedIn: true
+    isLoggedIn: true,
+    test: 'test'
 })

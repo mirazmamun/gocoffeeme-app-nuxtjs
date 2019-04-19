@@ -4,15 +4,15 @@
       <div class="column">
         <h3 class="title block">Register</h3>
       </div>
-      <div class="column has-background-success">
+      <div class="column">
         <p class="content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
         </p>
       </div>
     </div>
-    <div class="columns">
-      <div class="column has-background-danger is-9">
+    <div class="columns has-background-light">
+      <div class="column is-9">
         <p class="content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -26,7 +26,7 @@
       <div class="column">
         <h3 class="title block">Gratitude Received</h3>
       </div>
-      <div class="column has-background-info is-8">
+      <div class="column is-8">
         <p class="content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
